@@ -1,0 +1,20 @@
+.banner {
+  height: 70px;
+  width: 100%;
+  background-image: url("../img/image-banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 650px) {
+  .banner {
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .banner {
+    height: 250px;
+  }
+}

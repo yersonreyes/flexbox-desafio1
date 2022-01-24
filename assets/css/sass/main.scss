@@ -1,0 +1,14 @@
+@import "vendors/scss/bootstrap.scss";
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/reset";
+
+@import "components/buttons";
+@import "components/avatar";
+
+@import "layout/header";
+@import "layout/banner";
+@import "layout/personal";
+@import "layout/videos-populares";

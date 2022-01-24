@@ -1,0 +1,39 @@
+.videos-populares-container {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  border: none;
+  width: 100%;
+}
+
+@media only screen and (min-width: 546px) {
+  .videos-populares-container {
+    justify-content: space-between;
+  }
+
+  .card {
+    max-width: 250px;
+    height: 305px;
+
+    .card-body {
+      padding: 0;
+      padding-top: 1rem;
+    }
+
+    img {
+      height: 132px;
+      width: 250px;
+    }
+
+    h3 {
+      font-size: $font-l;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.buttons {
+  display: none;
+}
+
+@media only screen and (min-width: 950px) {
+  .personal-container {
+    border-bottom: 1px solid $color-light-gray;
+  }
+  .personal {
+    justify-content: space-between;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+}
